@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
 
     let image = message.mentions.users.first() ? message.mentions.users.first().displayAvatarURL({format: 'png', size: 512}) :message.author.displayAvatarURL({format: 'png', size: 512});
     let color = args[0];
-    if(!args[0]) return message.channel.send("Please provide me a color")
+    if(!args[0]) return message.channel.send("Please provide me a color");
     try {
         const { body } = await request.get(image);
         const data = await loadImage(body);
@@ -27,10 +27,10 @@ module.exports.run = async (bot, message, args) => {
         message.reply("Something went wrong please try again!!");
        console.log(err);
     }
-}
+};
 
 module.exports.help = {
     name: "tint",
 		category: "Colour",
 		description: "Tint's your picture with your colour"
-}
+};

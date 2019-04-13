@@ -25,10 +25,10 @@ module.exports.run = async (bot, message) => {
         message.reply("Something went wrong please try again!!");
        console.log(err);
     }
-}
+};
 
 module.exports.help = {
     name: "sepia",
 		category: "Colour",
 		description: "Shows sepia colour correction"
-}
+};

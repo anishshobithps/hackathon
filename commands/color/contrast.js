@@ -25,10 +25,10 @@ module.exports.run = async (bot, message) => {
         message.reply("Something went wrong please try again!!");
        console.log(err);
     }
-}
+};
 
 module.exports.help = {
     name: "contrast",
 		category: "Colour",
 		description: "Shows contrast colour correction"
-}
+};

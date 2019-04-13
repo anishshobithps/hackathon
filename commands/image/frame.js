@@ -1,5 +1,5 @@
 
-const {createCanvas, loadImage, registerFont} = require('canvas');
+const { createCanvas, loadImage } = require('canvas');
 const request = require("node-superfetch");
 const Discord = require("discord.js");
 /* Export Function */
@@ -20,10 +20,10 @@ let image = message.mentions.users.first() ? message.mentions.users.first().disp
         message.reply("Something went wrong please try again!!");
        console.log(err);
     }
-}
+};
 
 module.exports.help = {
     name: "frame",
 		category: "Image",
 		description: "Shows frame image manipulation"
-}
+};

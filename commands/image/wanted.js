@@ -1,4 +1,4 @@
-const {createCanvas, loadImage, registerFont} = require('canvas');
+const { createCanvas, loadImage } = require('canvas');
 const request = require("node-superfetch");
 const Discord = require("discord.js");
 const { sepia } = require("discord.js-canvas");
@@ -8,7 +8,7 @@ let image = message.mentions.users.first() ? message.mentions.users.first().disp
    try {
     const base = await loadImage("https://raw.githubusercontent.com/dragonfire535/xiao/master/assets/images/wanted.png");
     const {body} = await request.get(image);
- 			const avatar = await loadImage(body);
+		const avatar = await loadImage(body);
 			const canvas = createCanvas(base.width, base.height);
 			const ctx = canvas.getContext('2d');
 			ctx.drawImage(base, 0, 0);
@@ -21,10 +21,10 @@ let image = message.mentions.users.first() ? message.mentions.users.first().disp
         message.reply("Something went wrong please try again!!");
        console.log(err);
     }
-}
+};
 
 module.exports.help = {
     name: "wanted",
 		category: "Image",
 		description: "Shows wanted image manipulation"
-}
+};
