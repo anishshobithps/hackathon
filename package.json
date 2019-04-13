@@ -5,6 +5,8 @@
     "discord.js-canvas": "0.0.1"
   },
 "scripts": {
-"start": "node index.js"
+"start": "node index.js",
+"test": "eslint \"./**/*.js\"",
+"lint": "eslint --fix \"./**/*.js\""
 }
 }
