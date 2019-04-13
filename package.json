@@ -1,12 +1,13 @@
 {
   "main": "index.js",
   "dependencies": {
-    "path": "0.12.7",
-    "discord.js-canvas": "0.0.1"
+    "discord.js-canvas": "0.0.1",
+    "eslint": "^5.16.0",
+    "path": "0.12.7"
   },
-"scripts": {
-"start": "node index.js",
-"test": "eslint \"./**/*.js\"",
-"lint": "eslint --fix \"./**/*.js\""
-}
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint \"./**/*.js\"",
+    "lint": "eslint --fix \"./**/*.js\""
+  }
 }
