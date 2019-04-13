@@ -32,5 +32,5 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
     name: "tint",
 		category: "Colour",
-		description: "Shows contrast colour correction"
+		description: "Tint's your picture with your colour"
 }

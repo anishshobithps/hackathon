@@ -30,5 +30,5 @@ module.exports.run = async (bot, message) => {
 module.exports.help = {
     name: "sepia",
 		category: "Colour",
-		description: "Shows contrast sepia correction"
+		description: "Shows sepia colour correction"
 }
