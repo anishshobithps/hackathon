@@ -4,5 +4,3 @@ email: false
 node_js:
 - "10"
 install: npm i -g eslint
-script:
-  - npm run test
