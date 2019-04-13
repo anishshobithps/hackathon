@@ -22,7 +22,7 @@
 
 <a href="https://app.codacy.com/project/Anish-Shobith/hackathon/dashboard">
 
-   ![Codady grade](https://img.shields.io/codacy/grade/2f7f48bd922e4c76ade95be2c138146c.svg?style=for-the-badge" alt="Codacy")
+   ![Codady grade](https://img.shields.io/codacy/grade/2f7f48bd922e4c76ade95be2c138146c.svg?style=for-the-badge")
 
 </a>
 
