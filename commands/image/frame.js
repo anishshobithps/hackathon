@@ -1,13 +1,12 @@
 
 const {createCanvas, loadImage, registerFont} = require('canvas');
-const path = require('path');
 const request = require("node-superfetch");
 const Discord = require("discord.js");
 /* Export Function */
 module.exports.run = async (bot, message, args) => {
 let image = message.mentions.users.first() ? message.mentions.users.first().displayAvatarURL({format: 'png', size: 512}) :message.author.displayAvatarURL({format: 'png', size: 512});
    try {
-    const base = await loadImage("https://github.com/dragonfire535/xiao/blob/master/assets/images/frame.png");
+    const base = await loadImage("https://raw.githubusercontent.com/dragonfire535/xiao/master/assets/images/frame.png");
     const {body} = await request.get(image);
     const data = await loadImage(body);
     const canvas = createCanvas(data.width, data.height);
@@ -24,7 +23,7 @@ let image = message.mentions.users.first() ? message.mentions.users.first().disp
 }
 
 module.exports.help = {
-    name: "approved",
+    name: "frame",
 		category: "Image",
 		description: "Shows approved image manipulation"
 }
