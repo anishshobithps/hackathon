@@ -19,6 +19,7 @@ let image = message.mentions.users.first() ? message.mentions.users.first().disp
         message.reply(attachment);
     } catch (err) {
         message.reply("Something went wrong please try again!!");
+       // eslint-disable-next-line no-undef
        console.log(err);
     }
 };

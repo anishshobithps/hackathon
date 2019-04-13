@@ -10,6 +10,7 @@ bot.commands = new Collection();
 
 let load = (dir) => {
     readdir(dir, (err, files) => {
+        // eslint-disable-next-line no-undef
         if(err) console.log(err);
         let jsfile = files.filter(f => f.split(".")[1] === "js");
 
@@ -17,6 +18,7 @@ let load = (dir) => {
             delete require.cache[require.resolve(`${dir}${f}`)];
 
             let props = require(`${dir}${f}`);
+            // eslint-disable-next-line no-undef
             console.log(`${f} loaded!`);
             
             bot.commands.set(props.help.name, props);
@@ -30,6 +32,8 @@ load("./commands/image/");
 load("./commands/core/");
 
 bot.on("ready", () => {
+    
+    // eslint-disable-next-line no-undef
     console.log(`${bot.user.username} is now online!`);
     bot.user.setActivity("something", {
         type: "WATCHING"
