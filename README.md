@@ -16,13 +16,13 @@
 
 <a href="https://travis-ci.org/Anish-Shobith/hackathon">
 
-    <img src="https://img.shields.io/travis/Anish-Shobith/hackathon.svg?style=for-the-badge" alt="Build">
+   ![Codacy](https://img.shields.io/travis/Anish-Shobith/hackathon.svg?style=for-the-badge" alt="Build">
 
 </a>
 
 <a href="https://app.codacy.com/project/Anish-Shobith/hackathon/dashboard">
 
-    <img src="https://img.shields.io/codacy/grade/2f7f48bd922e4c76ade95be2c138146c.svg?style=for-the-badge" alt="Codacy">
+   ![Codady grade](https://img.shields.io/codacy/grade/2f7f48bd922e4c76ade95be2c138146c.svg?style=for-the-badge" alt="Codacy")
 
 </a>
 
