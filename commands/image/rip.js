@@ -12,8 +12,8 @@ let image = message.mentions.users.first() ? message.mentions.users.first().disp
 			const canvas = createCanvas(base.width, base.height);
 			const ctx = canvas.getContext('2d');
 			ctx.drawImage(base, 0, 0);
-			ctx.drawImage(avatar, 194, 399, 500, 500);
-			greyscale(ctx, 194, 399, 500, 500);
+			ctx.drawImage(avatar, 59, 68, 200, 200);
+			greyscale(ctx, 59, 68, 200, 200);
         const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'rip.png');
 
         message.reply(attachment);
