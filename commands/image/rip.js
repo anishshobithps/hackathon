@@ -6,7 +6,7 @@ const { greyscale } = require("discord.js-canvas");
 module.exports.run = async (bot, message, args) => {
 let image = message.mentions.users.first() ? message.mentions.users.first().displayAvatarURL({format: 'png', size: 512}) :message.author.displayAvatarURL({format: 'png', size: 512});
    try {
-    const base = await loadImage("https://raw.githubusercontent.com/dragonfire535/xiao/master/assets/images/rip.png");
+    const base = await loadImage("https://raw.githubusercontent.com/YusufByt/xiao/master/assets/images/rip.png");
     const {body} = await request.get(image);
 		const avatar = await loadImage(body);
 			const canvas = createCanvas(base.width, base.height);
