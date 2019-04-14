@@ -35,7 +35,7 @@ bot.on("ready", () => {
     
     // eslint-disable-next-line no-undef
     console.log(`${bot.user.username} is now online!`);
-    bot.user.setActivity("something", {
+    bot.user.setActivity("your profile pic", {
         type: "WATCHING"
     });
 });
