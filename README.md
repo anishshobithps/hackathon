@@ -16,7 +16,7 @@
 
 <a href="https://travis-ci.org/Anish-Shobith/hackathon">
 
-   ![Codacy](https://img.shields.io/travis/Anish-Shobith/hackathon.svg?style=for-the-badge" alt="Build">
+   ![Travis (.org)](https://img.shields.io/travis/Anish-Shobith/hackathon.svg?style=for-the-badge")
 
 </a>
 
@@ -30,13 +30,13 @@
 
 <a href="https://github.com/Anish-Shobith/hackathon/issues">
 
-    <img src="https://img.shields.io/github/issues/Anish-Shobith/hackathon.svg?style=for-the-badge" alt="Issues">
+  ![Github issues](https://img.shields.io/github/issues/Anish-Shobith/hackathon.svg?style=for-the-badge)
 
 </a>
 
 <a href="https://github.com/Anish-Shobith/hackathon/pulls">
 
-    <img src="https://img.shields.io/github/issues-pr/Anish-Shobith/hackathon.svg?style=for-the-badge" alt="Pull Request">
+   ![Github pr](https://img.shields.io/github/issues-pr/Anish-Shobith/hackathon.svg?style=for-the-badge)
 
 </a>
 
